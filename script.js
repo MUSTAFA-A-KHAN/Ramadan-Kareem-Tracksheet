@@ -1,5 +1,8 @@
 let totalQuranPages = parseInt(localStorage.getItem("totalQuranPages")) || 0;
 document.getElementById("totalQuranPages").innerText = totalQuranPages;
+document.body.style.backgroundColor = "lightblue";
+//document.getElementById("container").style.backgroundColor = "lightblue";
+//alert("updated");
 
 // Update Quran progress and store it
 function updateQuranProgress() {
@@ -15,6 +18,9 @@ function updateQuranProgress() {
 // Reset Salah checkboxes and clear storage
 function resetSalah() {
     document.body.style.backgroundColor = "black";
+    alert("updated");
+    document.querySelector(".container").style.backgroundColor = "lightblue";
+    //document.getElementById("container").style.backgroundColor = "lightblue";
     const checkboxes = document.querySelectorAll(".salah-checkboxes input[type='checkbox']");
     checkboxes.forEach(checkbox => {
         checkbox.checked = false;
