@@ -14,6 +14,7 @@ function updateQuranProgress() {
 
 // Reset Salah checkboxes and clear storage
 function resetSalah() {
+    document.body.style.backgroundColor = "black";
     const checkboxes = document.querySelectorAll(".salah-checkboxes input[type='checkbox']");
     checkboxes.forEach(checkbox => {
         checkbox.checked = false;
