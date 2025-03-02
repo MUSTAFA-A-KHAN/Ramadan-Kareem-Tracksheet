@@ -68,3 +68,20 @@ ul li {
     margin: 5px 0;
     border-radius: 5px;
 }
+.corner-image {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 60px;
+    height: auto;
+    background: none !important;
+}
+
+.corner-greet-image {
+    position: fixed;
+    top: 18px;
+    left: 15px;
+    width: 60px;
+    height: auto;
+    background: none !important;
+}
